@@ -1,0 +1,15 @@
+{
+  "name": "tienda-alura",
+  "version": "1.0.0",
+  "description": "Challenge Alura Geek",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./database/bd.json --port 3001np"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  },
+  "devDependencies": {}
+}

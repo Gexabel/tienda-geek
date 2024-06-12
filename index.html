@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/Logo Tienda Alura2.png" alt="Signo distintivo tienda Geek">
+    </header>
+    <main class="main-container">
+        <section>
+            <h1>Mis Productos:</h1>
+            <div data-product class="products-container">
+               <!--  <div class="card"> 
+                    <div class="img-container">
+                        <img src="assets/walee.png" alt="Wall-e">
+                    </div>
+            
+                    <div class="card-container--info">
+                        <p>Wall-e</p>
+                        <div class="card-container--value">
+                        <p>$ 50.00</p>
+                        <button class="delete-button">
+                        </button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section>
+            <h1>Agregar Producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="Ingrese el nombre del producto..." type="text" size="35" required>
+                <input data-price placeholder="Ingrese el precio en $..." type="text" size="35" required>
+                <input data-image placeholder="Ingrese la URL de la imagen..." type="text" size="35" required>
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar...</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p id="atribuciones">Atribución a los autores de imágenes utilizadas:</p>
+        <a href=https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-consola-red-game-boy-2263822/
+>Foto de Luis Quintero</a>
+<a href=https://www.pexels.com/es-es/foto/figura-de-plastico-de-super-mario-y-yoshi-163077/
+>Foto de Pixabay</a>
+<a href=https://www.pexels.com/es-es/foto/cubo-de-rubik-3x3-54101/
+>Foto de Pixabay</a>
+<a href=https://www.pexels.com/es-es/foto/modelo-de-fundicion-a-presion-wall-e-981588/
+>Foto de Nubia Navarro (nubikini)</a>
+<a href=https://www.pexels.com/es-es/foto/figurilla-estatuilla-figura-tipo-8294606/
+>Foto de Pavel Danilyuk</a>
+<a href=https://www.pexels.com/photo/baby-yoda-toy-9983799/
+>Foto de Erik Mclean</a>
+        <p class="derechos-autor" >&copy; Sitio creado por Suyapa Ruiz - 2024 </p>
+    </footer>
+    <script type="module" src="js/mostrarCards.js"></script>
+    <script type="module" src="js/crearCard.js" ></script>
+</body>
+</html>

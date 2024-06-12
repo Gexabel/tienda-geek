@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "name": "Baby Yoda",
+      "price": "48.50",
+      "image": "assets/baby-yoda.png",
+      "id": "1"
+    },
+    {
+      "name": "Cubo Rubik",
+      "price": "24.90",
+      "image": "assets/cubo.png",
+      "id": "2"
+    },
+    {
+      "name": "GameBoy",
+      "price": "79.90",
+      "image": "assets/gameboy.png",
+      "id": "3"
+    },
+    {
+      "name": "Mario Bross",
+      "price": "29.50",
+      "image": "assets/Mario.png",
+      "id": "4"
+    },
+    {
+      "id": "1cac",
+      "name": "Robot",
+      "price": "99.99",
+      "image": "assets/robot.png"
+    },
+    {
+      "id": "93a6",
+      "name": "Wall-e",
+      "price": "49.90",
+      "image": "assets/walee.png"
+    }
+  ]
+}

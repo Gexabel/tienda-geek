@@ -1,0 +1,143 @@
+/* General */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e905;
+  }
+
+  /* Encabezado */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333333;
+    
+ }
+
+ .main-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+ }
+ 
+ h1 {
+  text-align: center;
+ }
+
+ p{
+  margin: 3px;
+ }
+
+ .card{
+  background-color: #333333;
+  margin: 10px;
+ }
+
+ .card:hover{
+  animation: animacion-foto 1s ease-in; 
+}
+
+ .products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  margin: 3px;
+ }
+
+ .name-size{
+  font-size: larger;
+  font-weight: lighter;
+  padding: 1;
+ }
+
+ .card-container--value{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 2px;
+
+ }
+
+ .delete-button{
+  border: none;
+  padding: 1;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete-button:hover{
+  animation: animacion-foto 1s ease-in; 
+}
+
+@keyframes animacion-foto {
+  0% {
+    transform: scale(1); /* Tamaño inicial */
+  }
+  50% {
+    transform: scale(1.1); /* Tamaño máximo */
+  }
+  100% {
+    transform: scale(1); /* Tamaño inicial */
+  }
+}
+
+ .form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+ }
+
+ [data-name],
+ [data-price],
+ [data-image] {
+   margin: 5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ #button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;  
+  background-color: black;
+  color: #fff;
+  border: none;
+  transition: 0.5s all;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#button:hover{
+  background: #333333;
+}
+
+   /* Pie de pagina */
+ .footer-container{
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+
+  .derechos-autor{
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  @media all and (max-width: 800px) {
+    .main-container{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-flow: column;
+     }
+
+    
+  }
